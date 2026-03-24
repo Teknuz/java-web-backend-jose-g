@@ -30,7 +30,6 @@ Este repositorio fue creado para practicar el desarrollo de backends en Java, ap
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/Teknuz/java-web-backend-jose-g.git
-   Entrar al proyecto:
 2.Entrar al proyecto
 cd java-web-backend-jose-g
 
