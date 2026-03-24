@@ -1,0 +1,28 @@
+package py.edu.ucsa.java_web_backend_jose.controllers;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import py.edu.ucsa.java_web_backend_jose.dto.BackendData;
+import py.edu.ucsa.java_web_backend_jose.dto.BackendDataRecord;
+
+import java.time.LocalDate;
+
+@RestController
+@RequestMapping("/api/v1/backend/data")
+public class BackendDataController {
+
+    @GetMapping("/full")
+    public ResponseEntity<?> getBackendData(){
+        BackendData data = new BackendData();
+        BackendDataRecord dataRecord = new BackendDataRecord("JAVA WEB BACKEND JOSEG","0.0.0-SNAPSHOT",LocalDate.now());
+        data.setProjectName("JAVA WEB BACKEND JOSEG");
+        data.setProjectVerion("0.0.0-SNAPSHOT");
+        data.setProjectVersionDate(LocalDate.now());
+
+        return ResponseEntity.ok(dataRecord);
+    }
+
+
+}
