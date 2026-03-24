@@ -17,7 +17,7 @@ public class BackendDataController {
     public ResponseEntity<?> getBackendDataGeneric(){
         BackendData data =new BackendData();
         data.setProjectName("JAVA WEB BACKEND JOSEG");
-        data.setProjectVerion("0.0.0-SNAPSHOT");
+        data.setProjectVersion("0.0.0-SNAPSHOT");
         data.setProjectVersionDate(LocalDate.now());
         return ResponseEntity.ok(data);
     }
@@ -32,7 +32,7 @@ public class BackendDataController {
         BackendData data = buildBackendData();
 
         BackendDataRecord dataRecord = new BackendDataRecord(data.getProjectName(),
-                data.getProjectVerion(),
+                data.getProjectVersion(),
                 data.getProjectVersionDate());
 
         return ResponseEntity.ok(dataRecord);
@@ -41,7 +41,7 @@ public class BackendDataController {
     private BackendData buildBackendData() {
         BackendData data = new BackendData();
         data.setProjectName("JAVA WEB BACKEND JOSEG");
-        data.setProjectVerion("0.0.0-SNAPSHOT");
+        data.setProjectVersion("0.0.0-SNAPSHOT");
         data.setProjectVersionDate(LocalDate.now());
         return data;
     }

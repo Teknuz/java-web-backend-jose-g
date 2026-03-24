@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class BackendData {
 
     private String projectName;
-    private String projectVerion;
+    private String projectVersion;
     private LocalDate projectVersionDate;
 
     public String getProjectName() {
@@ -16,12 +16,12 @@ public class BackendData {
         this.projectName = projectName;
     }
 
-    public String getProjectVerion() {
-        return projectVerion;
+    public String getProjectVersion() {
+        return projectVersion;
     }
 
-    public void setProjectVerion(String projectVerion) {
-        this.projectVerion = projectVerion;
+    public void setProjectVersion(String projectVersion) {
+        this.projectVersion = projectVersion;
     }
 
     public LocalDate getProjectVersionDate() {
