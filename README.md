@@ -53,7 +53,7 @@ localhost:8080/backend/api/saludo
 
 Saludo Personalizado
 ```
-localhost:8080/backend/api/saludo-personalizado
+localhost:8080/backend/api/saludo-personalizado?nombre=Jose
 ```
 <img width="1920" height="1080" alt="saludoPersonalizado" src="https://github.com/user-attachments/assets/25a74cd2-1bb4-4ff5-ab56-6b8d48f4ad52" />
 
