@@ -1,5 +1,7 @@
 # Java Web Backend Jose - Ejercitario 2
 
+- [Preguntas del Ejercitario](./PreguntasEjercitario.md)
+  
 Proyecto backend desarrollado con **Spring Boot** como parte de práctica del curso de **Java Web**.  
 En esta rama se implementa un **CRUD completo de contactos**, aplicando arquitectura por capas, validaciones, persistencia con **JPA** y base de datos en memoria **H2**.
 
