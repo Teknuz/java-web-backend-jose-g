@@ -241,10 +241,13 @@ Ejercitario funcional orientado al aprendizaje y práctica de backend con Java y
 # Capturas del Ejercitario
 ## Inserción de tres registros y listar todos los contactos
 <img width="1920" height="1080" alt="tresRegistros" src="https://github.com/user-attachments/assets/53eed259-db51-40c4-8558-b13aa6ba02b3" />
+
 ## Busqueda por id
 <img width="1920" height="1080" alt="serachById" src="https://github.com/user-attachments/assets/0a153c62-a8a5-47ff-9e39-0b8a9af5343a" />
+
 ## Actualizar
 <img width="1920" height="1080" alt="userUpdated" src="https://github.com/user-attachments/assets/61514bc5-45cd-4e53-9520-5241bba4493b" />
+
 ## Eliminar
 <img width="1920" height="1080" alt="usertDeleted" src="https://github.com/user-attachments/assets/21d583a2-3ed6-4cf0-90aa-42fd9a7dea0a" />
 
